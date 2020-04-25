@@ -22,8 +22,8 @@ sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-availab
 
 sudo mysql -u root -p
 create database wp_db;
-CREATE USER ‘wp_user’@’localhost’ IDENTIFIED BY ‘$3’;
-GRANT ALL PRIVILEGES ON wp_db.* TO ‘wp_user’@’localhost’;
+CREATE USER 'wp_user'@'localhost' IDENTIFIED BY '$3';
+GRANT ALL PRIVILEGES ON wp_db.* TO 'wp_user'@'localhost';
 FLUSH PRIVILEGES;
 exit
 
